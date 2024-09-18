@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build-css": "tailwindcss build src/app/globals.css -o public/styles.css",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -12,6 +13,7 @@
     "@headlessui/react": "^2.1.8",
     "@heroicons/react": "^2.1.5",
     "@material-tailwind/react": "^2.1.10",
+    "@sanity/client": "^6.21.3",
     "next": "14.2.11",
     "react": "^18",
     "react-dom": "^18"
