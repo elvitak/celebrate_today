@@ -8,13 +8,13 @@ export default async function Home() {
     <div>
       <NavigationBar />
       <div className="text-lg">Choose how to celebrate TODAY</div>
-      <h6>Hello world</h6>
-      <h1>Hello world</h1>
-      {celebrations.map((celebration) => (
-        <div key={celebration.slug}>
-          <CardItem />
-        </div>
-      ))}
+      <div class="grid lg:grid-cols-4">
+        {celebrations.map((celebration) => (
+          <div key={celebration.slug}>
+            <CardItem title={celebration.title} image={celebration.image} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
