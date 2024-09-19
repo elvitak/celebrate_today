@@ -9,7 +9,7 @@ export default async function Home() {
     <div>
       <NavigationBar />
       <MainText />
-      <div class="grid lg:grid-cols-4">
+      <div class="grid lg:grid-cols-2 lg:grid-rows-2 place-items-center">
         {celebrations.map((celebration) => (
           <div key={celebration.slug}>
             <CardItem title={celebration.title} image={celebration.image} />
