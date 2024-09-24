@@ -1,14 +1,14 @@
-"use client";
 import React from "react";
 import NavigationBar from "@/components/NavigationBar";
-import { useParams } from "next/navigation";
+import { getCelebrationBySlug } from "../../../../lib/api";
 
-const Page = () => {
-  const router = useParams();
+const Page = ({ params }) => {
+  const slug = params["slug"];
+  const celebration = getCelebrationBySlug(slug);
   return (
     <div>
       <NavigationBar />
-      <div>Page {router?.slug} </div>
+      <div>Page + {slug}</div>
     </div>
   );
 };

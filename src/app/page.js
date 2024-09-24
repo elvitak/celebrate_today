@@ -12,10 +12,7 @@ export default async function Home() {
       <MainText />
       <div class="grid lg:grid-cols-2 lg:grid-rows-2 place-items-center">
         {celebrations.map((celebration) => (
-          <Link
-            href="celebration/[slug]"
-            as={`celebration/${celebration?.slug}`}
-          >
+          <Link href={`celebration/${celebration?.slug}`}>
             <CardItem title={celebration.title} image={celebration.image} />
           </Link>
         ))}
