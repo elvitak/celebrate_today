@@ -8,9 +8,9 @@ const About = () => {
       <div className="text-5xl pt-32 text-center">
         This project is based on...
       </div>
-      <div className="md:flex justify-center items-center">
+      <div className="lg:flex justify-center items-center">
         <img
-          className="mx-28"
+          className="lg:mx-28"
           src="https://m.media-amazon.com/images/I/6104OzuIQqL._SY522_.jpg"
         />
 
