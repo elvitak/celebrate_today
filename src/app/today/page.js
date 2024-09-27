@@ -9,7 +9,7 @@ const Today = async () => {
   return (
     <div>
       <NavigationBar />
-      <div class="grid lg:grid-cols-2 lg:grid-rows-2 place-items-center">
+      <div className="grid lg:grid-cols-2 lg:grid-rows-2 place-items-center">
         {celebrations.map((celebration) => (
           <Link href={`celebration/${celebration?.slug}`}>
             <CardItem title={celebration.title} image={celebration.image} />

@@ -10,11 +10,11 @@ const Page = async ({ params }) => {
   return (
     <div>
       <NavigationBar />
-      <div class="container mx-auto prose prose-xl px-4 py-16">
-        <h1 class="">{celebration.title}</h1>
-        <div class="max-w-xl">
+      <div className="container mx-auto prose prose-xl px-4 py-16">
+        <h1 className="">{celebration.title}</h1>
+        <div className="max-w-xl">
           <img
-            class="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full rounded-lg"
             src={celebration.image}
             alt=""
           />
