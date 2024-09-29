@@ -7,7 +7,7 @@ const CardItem = ({ image, title }) => {
         <img className="w-full h-56" src={image} />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{title}</div>
-          <button className="bg-transparent hover:bg-black-500 text-black-700 font-semibold hover:text-white py-2 px-4 border border-black-500 hover:border-transparent rounded absolute bottom-2 right-2">
+          <button className="bg-transparent hover:bg-yellow-200 text-black-700 font-semibold hover:text-black py-2 px-4 border border-black-500 hover:border-transparent rounded absolute bottom-2 right-2">
             Read More
           </button>
         </div>
