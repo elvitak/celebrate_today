@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <NavigationBar />
-      <div className="text-5xl pt-32 text-center">
+      <div className="text-6xl pt-32 text-center">
         This project is based on...
       </div>
       <div className="lg:flex justify-center items-center">
@@ -14,7 +14,7 @@ const About = () => {
           src="https://m.media-amazon.com/images/I/6104OzuIQqL._SY522_.jpg"
         />
 
-        <div className="pr-14 text-3xl">
+        <div className="pr-14 text-3xl leading-relaxed">
           Celebrate Today is a digital journal that provides 4 reasons to revel
           every day of the year. It is inspired by the National Day Calendar, a
           compilation of appreciation days for everything from pizza to
