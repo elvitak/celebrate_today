@@ -11,7 +11,7 @@ const NavigationBar = () => {
       >
         Celebrate Today
       </Link>
-      <div className="md:inline-flex pt-3 px-10 ml-auto font-semibold uppercase">
+      <div className="inline-flex pt-3 px-10 ml-auto font-semibold uppercase">
         <Link href="/today" className="hover:text-yellow-200">
           Today's celebrations
         </Link>
